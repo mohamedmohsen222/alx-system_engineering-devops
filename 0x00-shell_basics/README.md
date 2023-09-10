@@ -1,1 +1,1 @@
-this script is for displaying current working dir
+this script is to pwd
