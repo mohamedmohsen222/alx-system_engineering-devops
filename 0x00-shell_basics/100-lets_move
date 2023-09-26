@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -name [[:upper:]]* -exec mv -t ~/tmp/u {} +
+ls -p -a --group-directories-first | sed 's/$/, /' | tr -d '\n'
